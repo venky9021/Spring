@@ -2,11 +2,13 @@ package com.telsuko.SimpleWebApp.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.ToString;
 import org.springframework.stereotype.Component;
 
 @Data
 @AllArgsConstructor
 @Component
+@ToString
 public class Product {
     private int prodId;
     private String prodname;
